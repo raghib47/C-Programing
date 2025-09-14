@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+
+    int n,i=1;
+    printf("enter the value of n:");
+    scanf("%d",&n);
+
+    do
+    {
+        int square = i*i;
+        int cube = i*i*i;
+        printf("number : %d,square %d,cube : %d\n",i,square,cube);
+        i = i+1;
+
+    } while (i <= n);
+    return 0;
+    
+}
